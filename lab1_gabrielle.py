@@ -62,7 +62,7 @@ name = "Gabrielle"
 hobby = "listening to music"
 coding_experience = "beginner"
 weekly_hours_learn_coding = 9
-my_github_comp115_repo = "https://github.com/awang-capu/comp115-capu"
+my_github_comp115_repo = "https://github.com/gabboily98-ops/comp115/blob/main/lab1_gabrielle.py"
 
 print(f"""
  Hi,
@@ -87,4 +87,5 @@ print(f"""
 # 2. upload your lab1 python file to your GitHub "comp115" repository.
 # 3. submit your github comp115 repo link on the e-learn.
 # Great job. Congratulations on finishing your lab1!
+
 #---------------------------------------------------------
