@@ -161,17 +161,16 @@ radius_increase = 15
 ollie.pensize(15)
 ollie.speed(5)
 ollie.up()
+ollie.goto(-radius, 0)
+ollie.left(90)
 for rainbow_colours in rainbow_c:
-    ollie.goto(0, radius)
     ollie.color(rainbow_colours)
     ollie.down()
-    ollie.circle(-radius, 90)
-    ollie.up()
     ollie.circle(-radius, 180)
-    ollie.down()
-    ollie.circle(-radius, 90)
     radius = radius + radius_increase
     ollie.up()
+    ollie.left(180)
+    ollie.goto(-radius, 0)
 ollie.shape("blank")
 
 
@@ -188,3 +187,4 @@ Resource (optional): For exercise 1, feel free to review the concept of exterior
 https://www.teachoo.com/8592/2789/Exterior-Angles-of-Regular-Polygons/category/Sum-of-Exterior-Angles-of-Polygons/
 
 """
+
