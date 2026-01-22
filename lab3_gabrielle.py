@@ -158,7 +158,7 @@ num_semicircles = 7
 rainbow_c = ["violet", "indigo", "blue", "green", "yellow", "orange", "red"]
 radius = 40
 radius_increase = 15
-ollie.pensize(10)
+ollie.pensize(15)
 ollie.speed(5)
 ollie.up()
 for rainbow_colours in rainbow_c:
@@ -186,4 +186,5 @@ as you did for lab1 and lab2. That's all.
 
 Resource (optional): For exercise 1, feel free to review the concept of exterior angles of regular polygons from here:
 https://www.teachoo.com/8592/2789/Exterior-Angles-of-Regular-Polygons/category/Sum-of-Exterior-Angles-of-Polygons/
+
 """
